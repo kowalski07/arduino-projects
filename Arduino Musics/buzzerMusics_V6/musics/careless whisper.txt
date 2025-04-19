@@ -1,0 +1,293 @@
+void CARELESS_WHISPER(float velocidade) {
+  bpm = velocidade;  // BPM PADRÂO = 140
+
+  // 01
+  n(f4, sm);
+
+  // 02
+  n(e5, sm);
+  n(d5, c);
+  n(a4, sm);
+  n(f4, sm);
+  n(e5, c + sm);
+
+  // 03
+  n(d5, c);
+  n(a4, sm);
+  n(f4, sm);
+  p(c);
+
+  // 04
+  n(c5, sm);
+  n(b4b, c);
+  n(f4, sm);
+  n(d4, sm);
+  n(c5, c + sm);
+
+  // 05
+  n(b4b, c);
+  n(f4, smp);
+  p(sm);
+
+  // 06
+  n(b4b, sm);
+  n(a4, c);
+  n(f4, sm);
+  n(d4, sm);
+  // 07
+  n(b3b, c + sb);
+
+  // 08
+  n(a3, sm);
+  n(b3b, sm);
+  n(c4, sm);
+  n(d4, sm);
+
+  // 09
+  n(e4, sm);
+  n(f4, sm);
+  n(g4, sm);
+  n(a4, sm);
+
+  // 10
+  n(e5, sm);
+  n(d5, c);
+  n(a4, sm);
+  n(f4, sm);
+  n(e5, c + sm);
+
+  // 11
+  n(d5, c);
+  n(a4, sm);
+  n(f4, sm);
+  p(c);
+
+  // 12
+  n(c5, sm);
+  n(b4b, c);
+  n(f4, sm);
+  n(d4, sm);
+  n(c5, c + sm);
+
+  // 13
+  n(b4b, c);
+  n(f4, smp);
+  p(sm);
+
+  // 14
+  n(b4b, sm);
+  n(a4, c);
+  n(f4, sm);
+  n(d4, sm);
+
+  // 15
+  n(b3b, c + sb);
+
+  // 16
+  n(a3, sm);
+  n(b3b, sm);
+  n(c4, sm);
+  n(d4, sm);
+
+  // 17
+  n(e4, sm);
+  n(f4, sm);
+  n(g4, sm);
+  n(a4, c);
+  n(d4, c);
+
+  // 18
+  n(a4, sm);
+  n(g4, c);
+  n(g4, sm);
+  n(f4, sm);
+  n(a4, c + sm);
+
+  // 19
+  n(f4, c);
+  n(f4, c);
+  n(d4, sm);
+  p(c);
+  n(d4, c);
+
+  // 20
+  n(a4, c);
+  n(g4, sm);
+  n(g4, sm);
+  n(f4, sm);
+  n(a4, c + sm);
+
+  // 21
+  n(g4, sm);
+  n(d4, sm);
+  p(sm);
+
+  // 22
+  n(f4, sm);
+  n(f4, sm);
+  p(c);
+  n(f4, sm);
+  n(g4, c + c);
+
+  // 23
+  n(g4, c);
+  n(f4, sm);
+  n(f4, smp);
+  n(d4, c);
+
+  // 24
+  n(e4, c);
+  n(d4, c);
+  n(e4, c);
+  n(d4, c);
+  n(e4, c);
+  n(d4, c);
+  n(e4, c);
+  n(d4, c);
+
+  // 25
+  n(e4, sm);
+  n(f4, c);
+  n(g4, smp);
+  p(c);
+  n(d4, c);
+
+  // 26
+  n(a4, sm);
+  n(g4, c);
+  n(g4, sm);
+  n(f4, sm);
+  n(a4, c + sm);
+
+  // 27
+  n(f4, c);
+  n(f4, c);
+  n(d4, sm);
+  p(c);
+  n(d4, c);
+
+  // 28
+  n(a4, c);
+  n(g4, sm);
+  n(g4, sm);
+  n(f4, sm);
+  n(a4, c + sm);
+
+  // 29
+  n(f4, c);
+  n(f4, c);
+  n(d4, sm);
+  p(c);
+  n(d4, c);
+
+  // 30
+  n(d5, m + c);
+  n(c5, sm);
+  n(c5, c + sm);
+
+  // 31
+  n(b4b, c);
+  n(b4b, smp);
+  n(a4, c);
+
+  // 32
+  n(a4, c + sb + mp);
+
+  // 33
+  n(a4, sm);
+
+  // 34
+  n(e5, sm);
+  n(d5, c);
+  n(a4, sm);
+  n(f4, sm);
+  n(e5, c + sm);
+
+  // 35
+  n(d5, c);
+  n(a4, sm);
+  n(f4, sm);
+  p(c);
+
+  // 36
+  n(c5, sm);
+  n(b4b, c);
+  n(f4, sm);
+  n(d4, sm);
+  n(c5, c + sm);
+
+  // 37
+  n(b4b, c);
+  n(f4, smp);
+  p(sm);
+
+  // 38
+  n(b4b, sm);
+  n(a4, c);
+  n(f4, sm);
+  n(d4, sm);
+
+  // 39
+  n(b3b, c + sb);
+
+  // 40
+  n(a3, sm);
+  n(b3b, sm);
+  n(c4, sm);
+  n(d4, sm);
+
+  // 41
+  n(e4, sm);
+  n(f4, sm);
+  n(g4, sm);
+  n(a4, sm);
+
+  // 42
+  n(e5, sm);
+  n(d5, c);
+  n(a4, sm);
+  n(f4, sm);
+  n(e5, c + sm);
+
+  // 43
+  n(d5, c);
+  n(a4, sm);
+  n(f4, sm);
+  p(c);
+
+  // 44
+  n(c5, sm);
+  n(b4b, c);
+  n(f4, sm);
+  n(d4, sm);
+  n(c5, c + sm);
+
+  // 45
+  n(b4b, c);
+  n(f4, smp);
+  p(sm);
+
+  // 46
+  n(b4b, sm);
+  n(a4, c);
+  n(f4, sm);
+  n(d4, sm);
+
+  // 47
+  n(b3b, c + sb);
+
+  // 48
+  n(a3, sm);
+  n(b3b, sm);
+  n(c4, sm);
+  n(d4, sm);
+
+  // 49
+  n(e4, sm);
+  n(f4, sm);
+  n(g4, sm);
+  n(e4, sm);
+
+  // 50
+  n(d4, sb);
+}

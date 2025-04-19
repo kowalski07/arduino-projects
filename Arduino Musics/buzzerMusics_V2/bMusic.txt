@@ -1,0 +1,426 @@
+
+void RULE() {
+  //01
+  n(b4, c);
+  n(a4b, c);
+  n(b4, c);
+  n(a4b, c);
+  n(b4, c);
+  n(a4b, c);
+  n(e5b, c);
+  n(d5, (c + c));
+  //02
+  n(b4, c);
+  n(d5, c);
+  n(e5b, c);
+  n(d5b, c);
+  n(b4b, c);
+  n(b4, c);
+  t(b4b, b4b, b4b, sc);
+  //03
+  n(b4, c);
+  n(a4b, c);
+  n(b4, c);
+  n(a4b, c);
+  n(b4, c);
+  n(a4b, c);
+  n(e5b, c);
+  n(d5, (c + c));
+  //04
+  n(d5, c);
+  n(d5, c);
+  n(d5, c);
+  n(d5b, sm);
+  p(sm);
+  
+  //05
+  n(b4, sm);
+  n(a4b, sm);
+  n(g4b, c);
+  n(a4b, sm);
+  n(d5, (c + c));
+  //06
+  n(d5, c);
+  n(d5, c);
+  n(d5, c);
+  n(d5b, sm);
+  p(c);
+  n(a4b, c);
+  //07
+  n(b4, sm);
+  n(a4b, sm);
+  n(g4b, c);
+  n(a4b, sm);
+  n(d4, (c + c));
+  //08
+  n(d4, c);
+  n(d4, c);
+  n(d4, c);
+  n(d4b, sm);
+  p(c);
+  n(a4b, c);
+  //09
+  n(b4, sm);
+  n(a4b, sm);
+  n(g4b, c);
+  n(a4b, sm);
+  n(d5, (c + c));
+  //10
+  n(d5, c);
+  n(d5, c);
+  n(d5, c);
+  n(d5b, sm);
+  p(c);
+  n(a4b, c);
+  //11
+  n(b4, sm);
+  n(a4b, sm);
+  n(g4b, c);
+  n(a4b, sm);
+  n(d4, (c + c));
+  //12
+  n(d4, c);
+  n(d4, c);
+  n(d4, c);
+  n(d4b, c);
+  p(sm);
+  
+  n(e4b, c);
+  //13
+  n(b4, c);
+  n(a4b, sm);
+  n(e4b, c);
+  n(b4, c);
+  n(a4b, sm);
+  n(d4, c);
+  //14
+  n(e4b, c);
+  n(e4b, c);
+  n(d4, c);
+  n(e4b, c);
+  n(b4, c);
+  n(a4b, sm);
+  n(e4b, c);
+  //15
+  n(a4b, c);
+  n(a4b, c);
+  n(g4b, c);
+  n(g4b, c);
+  n(d4b, c);
+  n(b4, c);
+  n(d4b, c);
+  n(d4b, c);
+  //16 legato
+  n(b4, mp);
+  p(c);
+  n(e4b, c);
+  //17
+  n(b4, c);
+  n(a4b, sm);
+  n(e4b, c);
+  n(b4, c);
+  n(a4b, sm);
+  n(d4, c);
+  //18
+  n(e4b, c);
+  n(e4b, c);
+  n(d4, c);
+  n(e4b, c);
+  n(b4, c);
+  n(a4b, sm);
+  n(b4, c);
+  //19
+  n(d5b, c);
+  n(d5b, c);
+  n(d5b, c);
+  n(d5b, c);
+  n(d5b, c);
+  n(b4, c);
+  n(e5b, c);
+  n(d5b, c);
+  //20 legato
+  n(a4b, mp);
+  p(c);
+  n(e4b, c);
+  //21
+  n(b4, c);
+  n(a4b, sm);
+  n(e4b, c);
+  n(b4, c);
+  n(a4b, sm);
+  n(d4, c);
+  //22
+  n(e4b, c);
+  n(e4b, c);
+  n(d4, c);
+  n(e4b, c);
+  n(b4, c);
+  n(a4b, sm);
+  n(e4b, c);
+  //23
+  n(a4b, c);
+  n(a4b, c);
+  n(g4b, c);
+  n(g4b, c);
+  n(d4b, c);
+  n(b4, c);
+  n(d4b, c);
+  n(d4b, c);
+  //24 legato
+  n(b4, mp);
+  p(c);
+  n(e4b, c);
+  //25
+  n(b4, c);
+  n(a4b, sm);
+  n(e4b, c);
+  n(b4, c);
+  n(a4b, sm);
+  n(d4, c);
+  //26
+  n(e4b, c);
+  n(e4b, c);
+  n(d4, c);
+  n(e4b, c);
+  n(b4, c);
+  n(a4b, sm);
+  n(b4, c);
+  //27
+  n(d5b, c);
+  n(d5b, c);
+  n(d5b, c);
+  n(d5b, c);
+  n(d5b, c);
+  n(b4, c);
+  n(e5b, c);
+  n(d5b, (c + c));
+  //28
+  n(a4b, sm);
+  p(sm);
+  p(sc);
+  
+  n(a4b, cp);
+  n(a4b, c);
+  //29
+  n(b4, c);
+  n(b4b, sc);
+  n(b4, c);
+  n(b4, c);
+  n(b4, sc);
+  t(b4, b4, b4b, scp);
+  n(b4, c);
+  n(b4, sc);
+  n(b4, c);
+  //30
+  n(b4, c);
+  n(b4, sc);
+  n(b4, c);
+  n(d5b, sc);
+  n(b4, c);
+  n(e5b, sm);
+  p(c);
+  n(b4b, sc);
+  n(b4b, sc);
+  //31
+  n(b4, cp);
+  n(b4, sc);
+  n(b4, sc);
+  n(b4, sc);
+  n(b4, c);
+  n(b4, sc);
+  n(b4, c);
+  n(b4, cp);
+  n(a4b, sc);
+  n(a4b, sc);
+  //32
+  t(b4, b4, b4b, scp);
+  n(b4, c);
+  n(b4, sc);
+  n(b4, c);
+  n(a4b, sm);
+  p(c);
+  n(a4b, sc);
+  n(a4b, sc);
+  //33
+  n(b4, sc);
+  n(b4, sc);
+  n(b4, sc);
+  n(b4, sc);
+  n(d5b, sc);
+  n(b4, c);
+  n(b4, sc);
+  t(b4, b4, b4, scp);
+  n(b4, c);
+  n(b4, sc);
+  n(b4, sc);
+  n(b4, sc);
+  //34
+  n(b4, sc);
+  n(b4, sc);
+  n(b4, sc);
+  n(b4, sc);
+  n(b4, sc);
+  n(b4, sc);
+  n(b4, c);
+  n(e5b, sm);
+  p(c);
+  n(a4b, sc);
+  n(a4b, sc);
+  //35
+  n(b4, sc);
+  n(b4, c);
+  n(b4, sc);
+  n(b4, sc);
+  n(b4, sc);
+  n(b4, c);
+  n(e5b, c);
+  n(b4, sc);
+  n(b4, c);
+  n(b4, c);
+  n(b4b, sc);
+  //36
+  n(b4, c);
+  n(b4b, sc);
+  n(b4, c);
+  n(b4, sc);
+  n(a4b, sm);
+  
+  //Coro
+  n(e4b, c);
+  n(a4b, c);
+  n(b4b, c);
+  //37
+  n(b4, smp);
+  n(e4b, c);
+  n(a4b, c);
+  n(b4b, c);
+  n(b4, sm);
+  //38
+  n(g4, c);
+  n(a4b, c);
+  n(b4b, c);
+  n(b4, sm);
+  n(a4b, c);
+  n(a4b, c);
+  n(a4b, c);
+  //39
+  n(e5b, sm);
+  n(d5b, c);
+  n(e5b, sm);
+  n(d5b, c);
+  n(e5b, sm);
+  //40
+  n(b4, m);
+  p(c);
+  
+  n(e4b, c);
+  n(a4b, c);
+  n(b4b, c);
+  //41
+  n(b4, smp);
+  n(e4b, c);
+  n(a4b, c);
+  n(b4b, c);
+  n(b4, sm);
+  //42
+  n(g4, c);
+  n(a4b, c);
+  n(b4b, c);
+  n(b4, sm);
+  n(a4b, c);
+  n(a4b, c);
+  n(a4b, c);
+  //43
+  n(e5b, sm);
+  n(d5b, c);
+  n(e5b, sm);
+  n(d5b, c);
+  n(e5b, sm);
+  //44
+  n(b4, sm);
+  p(sm);
+  p(sm);
+  p(sm);
+  
+  //45
+  n(b4, c);
+  n(b4, c);
+  n(b4, c);
+  n(b4, c);
+  n(b4, c);
+  n(b4, c);
+  n(b4, c);
+  n(b4, c);
+  //46
+  n(b4b, c);
+  n(b4b, c);
+  n(b4b, c);
+  n(b4b, c);
+  n(a4, c);
+  n(a4, c);
+  n(a4, c);
+  n(a4, c);
+  //47
+  n(a4b, m);
+  p(sm);
+  p(sm);
+  
+  //48
+  n(b4, sm);
+  n(a4b, sm);
+  n(g4b, c);
+  n(a4b, sm);
+  n(d5, (c + c));
+  //49
+  n(d5, c);
+  n(d5, c);
+  n(d5, c);
+  n(d5b, sm);
+  p(c);
+  n(a4b, c);
+  //50
+  n(b4, sm);
+  n(a4b, sm);
+  n(g4b, c);
+  n(a4b, sm);
+  n(d4, (c + c));
+  //51
+  n(d4, c);
+  n(d4, c);
+  n(d4, c);
+  n(d4b, sm);
+  p(c);
+  n(a3b, c);
+  //52
+  n(b3, sm);
+  n(a3b, sm);
+  n(g3b, c);
+  n(a3b, sm);
+  n(d4, (c + c));
+  //53
+  n(d4, c);
+  n(d4, c);
+  n(d4, c);
+  n(d4b, sm);
+  p(c);
+  n(a3b, c);
+  //54
+  n(b3, sm);
+  n(a3b, sm);
+  n(g3b, c);
+  n(a3b, sm);
+  n(d3, (c + c));
+  //55
+  n(d3, c);
+  n(d3, c);
+  n(d3, c);
+  n(d3b, c);
+  p(sm);
+  
+  n(a4b, c);
+  //56
+  n(b4, sm);
+  n(a4b, sm);
+  n(g4b, c);
+  n(a4b, c);
+}
